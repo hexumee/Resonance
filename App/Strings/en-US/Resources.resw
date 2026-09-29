@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutButton.Label" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="ActionFailed" xml:space="preserve">
+    <value>The action could not be completed.</value>
+  </data>
+  <data name="ActionFailedPrefix" xml:space="preserve">
+    <value>Could not complete the action: </value>
+  </data>
+  <data name="AlbumLabelPrefix" xml:space="preserve">
+    <value>Album: </value>
+  </data>
+  <data name="AppSettingsPageHeading.Text" xml:space="preserve">
+    <value>APP SETTINGS</value>
+  </data>
+  <data name="AudioFileDecodeFailedPrefix" xml:space="preserve">
+    <value>Could not decode the audio file: </value>
+  </data>
+  <data name="AudioFileSelectionCancelled" xml:space="preserve">
+    <value>Audio file selection was canceled.</value>
+  </data>
+  <data name="AudioPlaybackCompleted" xml:space="preserve">
+    <value>Playback completed.</value>
+  </data>
+  <data name="AudioPlaybackFailedPrefix" xml:space="preserve">
+    <value>Playback error: </value>
+  </data>
+  <data name="AudioPlaybackProgress" xml:space="preserve">
+    <value>{0}: {1:F1} / {2:F1} sec · {3}</value>
+  </data>
+  <data name="AudioPlaybackStarting" xml:space="preserve">
+    <value>Opening audio…</value>
+  </data>
+  <data name="AudioPlaybackTimeout" xml:space="preserve">
+    <value>The player did not open the audio within 10 seconds.</value>
+  </data>
+  <data name="AudioPreparing" xml:space="preserve">
+    <value>Preparing audio…</value>
+  </data>
+  <data name="BrowserLaunchFailed" xml:space="preserve">
+    <value>Windows could not open the browser.</value>
+  </data>
+  <data name="CacheCoversSetting" xml:space="preserve">
+    <value>Save cover art for offline viewing</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="CancelMicrophoneCheckButton.Content" xml:space="preserve">
+    <value>Cancel test</value>
+  </data>
+  <data name="CaptureModePicker.Header" xml:space="preserve">
+    <value>Capture mode</value>
+  </data>
+  <data name="ClearCoverCache" xml:space="preserve">
+    <value>Clear cover cache</value>
+  </data>
+  <data name="ClearHistory" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ClearHistoryButton.Label" xml:space="preserve">
+    <value>Clear history</value>
+  </data>
+  <data name="ClearHistoryPrompt" xml:space="preserve">
+    <value>All history entries will be deleted.</value>
+  </data>
+  <data name="ClearHistoryTitle" xml:space="preserve">
+    <value>Clear history?</value>
+  </data>
+  <data name="ClipboardCopyFailedPrefix" xml:space="preserve">
+    <value>Could not copy: </value>
+  </data>
+  <data name="ClipboardCopySucceeded" xml:space="preserve">
+    <value>Copied to the clipboard.</value>
+  </data>
+  <data name="CopyTrackDataButton.Content" xml:space="preserve">
+    <value>Copy details</value>
+  </data>
+  <data name="CoverCacheCleared" xml:space="preserve">
+    <value>Cache cleared.</value>
+  </data>
+  <data name="CoverCacheClearFailed" xml:space="preserve">
+    <value>Could not clear the cache.</value>
+  </data>
+  <data name="CoverEmpty" xml:space="preserve">
+    <value>The cover image is empty.</value>
+  </data>
+  <data name="CoverRedirectInsecure" xml:space="preserve">
+    <value>The cover request was redirected to an insecure address.</value>
+  </data>
+  <data name="CoverTooLarge" xml:space="preserve">
+    <value>The cover image is too large.</value>
+  </data>
+  <data name="CoverUnavailable" xml:space="preserve">
+    <value>Cover art is unavailable.</value>
+  </data>
+  <data name="DefaultMicrophoneName" xml:space="preserve">
+    <value>Windows default</value>
+  </data>
+  <data name="DeleteMultipleButton.Label" xml:space="preserve">
+    <value>Delete selected</value>
+  </data>
+  <data name="DeleteTrackButton.Content" xml:space="preserve">
+    <value>Remove from library</value>
+  </data>
+  <data name="DetailsActionsHeading.Text" xml:space="preserve">
+    <value>TRACK ACTIONS</value>
+  </data>
+  <data name="DetailsPageHeading.Text" xml:space="preserve">
+    <value>TRACK DETAILS</value>
+  </data>
+  <data name="DetailsServicesHeading.Text" xml:space="preserve">
+    <value>SERVICES &amp; SEARCH</value>
+  </data>
+  <data name="DiagnosticLogExported" xml:space="preserve">
+    <value>Log saved.</value>
+  </data>
+  <data name="DiagnosticLogExportFailed" xml:space="preserve">
+    <value>Could not save the log.</value>
+  </data>
+  <data name="DiagnosticLoggingSetting" xml:space="preserve">
+    <value>Error diagnostics log</value>
+  </data>
+  <data name="DiagnosticSettingsHelp" xml:space="preserve">
+    <value>Cache: up to 20 MB; each cover: up to 2 MB. The log is stored on this device only; audio recordings and service responses are not included.</value>
+  </data>
+  <data name="DiagnosticToneName" xml:space="preserve">
+    <value>Test tone</value>
+  </data>
+  <data name="ExportDiagnosticLog" xml:space="preserve">
+    <value>Export log</value>
+  </data>
+  <data name="FileSaveUnconfirmedPrefix" xml:space="preserve">
+    <value>The provider did not confirm that the file was saved: </value>
+  </data>
+  <data name="GenreLabelPrefix" xml:space="preserve">
+    <value>Genre: </value>
+  </data>
+  <data name="HistoryButton.Label" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="HistoryCleared" xml:space="preserve">
+    <value>History cleared.</value>
+  </data>
+  <data name="HistoryEmpty" xml:space="preserve">
+    <value>History is already empty.</value>
+  </data>
+  <data name="HistoryEntryDeleted" xml:space="preserve">
+    <value>Entry removed from history.</value>
+  </data>
+  <data name="HistoryEntryNotFound" xml:space="preserve">
+    <value>This entry is not in the history.</value>
+  </data>
+  <data name="HistoryPageHeading.Text" xml:space="preserve">
+    <value>RECOGNITION HISTORY</value>
+  </data>
+  <data name="HistoryTrackCountPrefix" xml:space="preserve">
+    <value>Songs: </value>
+  </data>
+  <data name="LibraryBackupFileType" xml:space="preserve">
+    <value>Resonance library backup</value>
+  </data>
+  <data name="LibraryBackupInvalid" xml:space="preserve">
+    <value>This is not a valid Resonance library backup.</value>
+  </data>
+  <data name="LibraryBackupSaved" xml:space="preserve">
+    <value>Library backup saved.</value>
+  </data>
+  <data name="LibraryBackupTooLarge" xml:space="preserve">
+    <value>The backup is too large (maximum 8 MB).</value>
+  </data>
+  <data name="LibraryLoadFailed" xml:space="preserve">
+    <value>The library could not be loaded. Try restoring a backup.</value>
+  </data>
+  <data name="LibraryNotLoaded" xml:space="preserve">
+    <value>The library is not loaded; saving was canceled.</value>
+  </data>
+  <data name="LibraryRestored" xml:space="preserve">
+    <value>Library restored.</value>
+  </data>
+  <data name="LibraryRestorePromptPrefix" xml:space="preserve">
+    <value>The current library will be replaced. Entries in the backup: </value>
+  </data>
+  <data name="LibraryRestoreTitle" xml:space="preserve">
+    <value>Restore library?</value>
+  </data>
+  <data name="LibrarySearchBox.PlaceholderText" xml:space="preserve">
+    <value>Search by title, artist, or album…</value>
+  </data>
+  <data name="LibraryTrackMissingTitle" xml:space="preserve">
+    <value>A library entry is missing its title.</value>
+  </data>
+  <data name="LibraryUnsupportedVersion" xml:space="preserve">
+    <value>This library backup version is not supported.</value>
+  </data>
+  <data name="MeterClipping" xml:space="preserve">
+    <value>possible signal clipping</value>
+  </data>
+  <data name="MeterReading" xml:space="preserve">
+    <value>Peak: {0:F1}% · AC RMS: {1} dBFS</value>
+  </data>
+  <data name="MeterUnavailable" xml:space="preserve">
+    <value>The level meter is unavailable for this input. Recording will continue.</value>
+  </data>
+  <data name="MeterWaiting" xml:space="preserve">
+    <value>Waiting for microphone input…</value>
+  </data>
+  <data name="MicrophoneCheckStarted" xml:space="preserve">
+    <value>Testing the microphone for 3 seconds. Speak or play some music…</value>
+  </data>
+  <data name="MicrophoneDevicePicker.Header" xml:space="preserve">
+    <value>Microphone</value>
+  </data>
+  <data name="MicrophoneInputDcOnly" xml:space="preserve">
+    <value>The recording is nearly constant (DC) rather than audio. Try another input or capture mode.</value>
+  </data>
+  <data name="MicrophoneInputSilent" xml:space="preserve">
+    <value>The input is digitally silent. Select another microphone or capture mode.</value>
+  </data>
+  <data name="MicrophoneListFailedPrefix" xml:space="preserve">
+    <value>Could not get the microphone list: </value>
+  </data>
+  <data name="MicrophonePermissionRequired" xml:space="preserve">
+    <value>Allow microphone access in Windows privacy settings.</value>
+  </data>
+  <data name="MicrophoneSettingsButton.Label" xml:space="preserve">
+    <value>Microphone settings</value>
+  </data>
+  <data name="MicrophoneSettingsPageHeading.Text" xml:space="preserve">
+    <value>MICROPHONE SETTINGS</value>
+  </data>
+  <data name="MicrophoneSignalReady" xml:space="preserve">
+    <value>The microphone is receiving a signal. You can try recognition.</value>
+  </data>
+  <data name="MicrophoneSignalReport" xml:space="preserve">
+    <value>Peak: {0:F1}% · RMS: {1}
+  AC signal: {2} · DC: {3:F1}%</value>
+  </data>
+  <data name="MicrophoneSignalWeak" xml:space="preserve">
+    <value>The signal is very weak. Try another input or capture mode.</value>
+  </data>
+  <data name="MicrophoneTestButton.Content" xml:space="preserve">
+    <value>Test, 3 sec</value>
+  </data>
+  <data name="MicrophoneTestRecordingName" xml:space="preserve">
+    <value>Latest test</value>
+  </data>
+  <data name="OfflineQueueEmpty" xml:space="preserve">
+    <value>There are no saved fingerprints yet.</value>
+  </data>
+  <data name="OfflineQueueFull" xml:space="preserve">
+    <value>The queue is full or the database size limit has been reached.</value>
+  </data>
+  <data name="OfflineQueueInvalid" xml:space="preserve">
+    <value>The offline recognition queue is corrupted.</value>
+  </data>
+  <data name="OfflineQueueItemSubtitle" xml:space="preserve">
+    <value>{0} · {1} sec</value>
+  </data>
+  <data name="OfflineQueueNeedInternet" xml:space="preserve">
+    <value>There is no Internet connection. Connect and try sending again.</value>
+  </data>
+  <data name="OfflineQueueNoMatch" xml:space="preserve">
+    <value>Could not recognize the saved fingerprints: {0}</value>
+  </data>
+  <data name="OfflineQueueRemove" xml:space="preserve">
+    <value>Remove selected</value>
+  </data>
+  <data name="OfflineQueueRemoved" xml:space="preserve">
+    <value>Selected fingerprints removed.</value>
+  </data>
+  <data name="OfflineQueueSaved" xml:space="preserve">
+    <value>No Internet connection. The fingerprint was saved and can be sent later.</value>
+  </data>
+  <data name="OfflineQueueSavedTitle" xml:space="preserve">
+    <value>Fingerprint saved</value>
+  </data>
+  <data name="OfflineQueueSend" xml:space="preserve">
+    <value>Send queue</value>
+  </data>
+  <data name="OfflineQueueSending" xml:space="preserve">
+    <value>Sending saved fingerprints…</value>
+  </data>
+  <data name="OfflineQueueSent" xml:space="preserve">
+    <value>Successfully recognized and added to history: {0}</value>
+  </data>
+  <data name="OfflineQueueSummary" xml:space="preserve">
+    <value>Waiting to be sent: {0}</value>
+  </data>
+  <data name="OfflineQueueTitle" xml:space="preserve">
+    <value>Offline recognition</value>
+  </data>
+  <data name="OfflineRecognitionsButton.Label" xml:space="preserve">
+    <value>Offline recognitions</value>
+  </data>
+  <data name="OpenInShazamButton.Content" xml:space="preserve">
+    <value>Open in Shazam</value>
+  </data>
+  <data name="PcmFormatRequired" xml:space="preserve">
+    <value>Audio must be mono PCM16 at 16 kHz.</value>
+  </data>
+  <data name="PlayDiagnosticTone" xml:space="preserve">
+    <value>Test audio (1-second tone)</value>
+  </data>
+  <data name="PlayDiagnosticToneButton.Content" xml:space="preserve">
+    <value>Test audio (1-second tone)</value>
+  </data>
+  <data name="PlayLastMicrophoneTest" xml:space="preserve">
+    <value>Play latest microphone test</value>
+  </data>
+  <data name="PlayMicrophoneTestButton.Content" xml:space="preserve">
+    <value>Play latest test</value>
+  </data>
+  <data name="PreviewAttribution" xml:space="preserve">
+    <value>Preview provided by iTunes</value>
+  </data>
+  <data name="PreviewFailed" xml:space="preserve">
+    <value>Could not load preview information.</value>
+  </data>
+  <data name="PreviewOpening" xml:space="preserve">
+    <value>Opening preview…</value>
+  </data>
+  <data name="PreviewOpenStore" xml:space="preserve">
+    <value>Open in Apple Music</value>
+  </data>
+  <data name="PreviewPlay" xml:space="preserve">
+    <value>Play 30-second preview</value>
+  </data>
+  <data name="PreviewPlaybackEnded" xml:space="preserve">
+    <value>Preview finished.</value>
+  </data>
+  <data name="PreviewPlaybackFailed" xml:space="preserve">
+    <value>Could not play the preview.</value>
+  </data>
+  <data name="PreviewSearching" xml:space="preserve">
+    <value>Searching for a preview…</value>
+  </data>
+  <data name="PreviewUnavailable" xml:space="preserve">
+    <value>Preview is unavailable for this track.</value>
+  </data>
+  <data name="RawCaptureMode.Content" xml:space="preserve">
+    <value>Minimal processing</value>
+  </data>
+  <data name="RecognitionCancelled" xml:space="preserve">
+    <value>Recognition canceled.</value>
+  </data>
+  <data name="RecognitionFailed" xml:space="preserve">
+    <value>Music recognition failed. Check your connection and try again.</value>
+  </data>
+  <data name="RecognitionFingerprintRequired" xml:space="preserve">
+    <value>A fingerprint is required for recognition.</value>
+  </data>
+  <data name="RecognitionInProgress" xml:space="preserve">
+    <value>Recognizing…</value>
+  </data>
+  <data name="RecognitionListening" xml:space="preserve">
+    <value>Listening to music for 12 seconds…</value>
+  </data>
+  <data name="RecognitionMissingTrackTitle" xml:space="preserve">
+    <value>No matches found.</value>
+  </data>
+  <data name="RecognitionNoMatch" xml:space="preserve">
+    <value>No matches found. Try another excerpt.</value>
+  </data>
+  <data name="RecognizeFileButton.Label" xml:space="preserve">
+    <value>Recognize file</value>
+  </data>
+  <data name="RefreshMicrophonesButton.Content" xml:space="preserve">
+    <value>Refresh inputs</value>
+  </data>
+  <data name="ReleaseYearLabelPrefix" xml:space="preserve">
+    <value>Release year: </value>
+  </data>
+  <data name="RestoreLibrary" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="SavedMicrophoneUnavailable" xml:space="preserve">
+    <value>The saved microphone is unavailable. The Windows default input is selected.</value>
+  </data>
+  <data name="SaveSettings" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="SearchOnlineButton.Content" xml:space="preserve">
+    <value>Search the web</value>
+  </data>
+  <data name="SelectHistoryButton.Label" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="SettingsBackupLibrary" xml:space="preserve">
+    <value>Back up library</value>
+  </data>
+  <data name="SettingsButton.Label" xml:space="preserve">
+    <value>App settings</value>
+  </data>
+  <data name="SettingsDiagnosticsHeading.Text" xml:space="preserve">
+    <value>DIAGNOSTICS &amp; CACHE</value>
+  </data>
+  <data name="SettingsLibraryHeading.Text" xml:space="preserve">
+    <value>LIBRARY</value>
+  </data>
+  <data name="SettingsRestoreLibrary" xml:space="preserve">
+    <value>Restore library backup</value>
+  </data>
+  <data name="SettingsSaved" xml:space="preserve">
+    <value>Settings saved.</value>
+  </data>
+  <data name="ShazamRateLimit" xml:space="preserve">
+    <value>Shazam has temporarily limited requests from your IP address.</value>
+  </data>
+  <data name="ShellAbout" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="ShellAboutBody" xml:space="preserve">
+    <value>Music recognition based on SongRec.
+
+  Core: C++/CX. Interface: UWP.
+  Windows 10 Mobile is supported.
+
+  SongRec is licensed under GPL-3.0. FFT: RustFFT / RealFFT — MIT.</value>
+  </data>
+  <data name="ShellCancelHint" xml:space="preserve">
+    <value>Tap again to cancel</value>
+  </data>
+  <data name="ShellClose" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="ShellCopyData" xml:space="preserve">
+    <value>Copy details</value>
+  </data>
+  <data name="ShellDelete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ShellDeleted" xml:space="preserve">
+    <value>Entries deleted: {0}</value>
+  </data>
+  <data name="ShellDeleteHistoryPrompt" xml:space="preserve">
+    <value>Delete the selected history entries ({0})?</value>
+  </data>
+  <data name="ShellDeleteSelected" xml:space="preserve">
+    <value>Delete selected entries?</value>
+  </data>
+  <data name="ShellDeleteSinglePrompt" xml:space="preserve">
+    <value>Remove “{0}” from recognition history?</value>
+  </data>
+  <data name="ShellDeleteSingleTitle" xml:space="preserve">
+    <value>Remove entry?</value>
+  </data>
+  <data name="ShellEmptyHistory" xml:space="preserve">
+    <value>No recognitions yet</value>
+  </data>
+  <data name="ShellEmptySearch" xml:space="preserve">
+    <value>No results found</value>
+  </data>
+  <data name="ShellListening" xml:space="preserve">
+    <value>Listening…</value>
+  </data>
+  <data name="ShellNotRecognized" xml:space="preserve">
+    <value>Could not recognize the music</value>
+  </data>
+  <data name="ShellPreparing" xml:space="preserve">
+    <value>Preparing microphone…</value>
+  </data>
+  <data name="ShellProcessing" xml:space="preserve">
+    <value>Recognizing…</value>
+  </data>
+  <data name="ShellReady" xml:space="preserve">
+    <value>Tap to recognize music</value>
+  </data>
+  <data name="ShellWindowHint" xml:space="preserve">
+    <value>Listening to music for 12 seconds</value>
+  </data>
+  <data name="ShellYouTube" xml:space="preserve">
+    <value>Open on YouTube</value>
+  </data>
+  <data name="StandardCaptureMode.Content" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="StopDiagnosticTone" xml:space="preserve">
+    <value>Stop tone</value>
+  </data>
+  <data name="StopMicrophoneTestPlayback" xml:space="preserve">
+    <value>Stop playback</value>
+  </data>
+  <data name="TextFileType" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="UnifiedPhoneMicrophoneHint" xml:space="preserve">
+    <value>Windows may show the phone's microphones as a single input. Try different capture modes.</value>
+  </data>
+  <data name="WaveFileCorrupt" xml:space="preserve">
+    <value>The WAV file is corrupted.</value>
+  </data>
+  <data name="WaveFormatInvalid" xml:space="preserve">
+    <value>The file does not contain WAVE audio.</value>
+  </data>
+  <data name="WaveRiffHeaderInvalid" xml:space="preserve">
+    <value>The file does not contain a RIFF/WAVE header.</value>
+  </data>
+  <data name="WebSearchLaunchFailedPrefix" xml:space="preserve">
+    <value>Could not open search: </value>
+  </data>
+</root>

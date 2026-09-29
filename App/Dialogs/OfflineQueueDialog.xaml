@@ -1,0 +1,16 @@
+<ContentDialog
+    x:Class="App.OfflineQueueDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <StackPanel MaxWidth="480">
+        <TextBlock x:Name="QueueSummary" TextWrapping="Wrap"/>
+        
+        <ListView x:Name="QueueList" SelectionMode="Multiple" MaxHeight="260" Margin="0,8"/>
+        <TextBlock x:Name="QueueStatus" TextWrapping="Wrap" Margin="0,8,0,0"/>
+        
+        <Button x:Name="SendButton" HorizontalAlignment="Stretch" Margin="0,8,0,0"/>
+        <Button x:Name="RemoveButton" HorizontalAlignment="Stretch" Margin="0,8,0,0" IsEnabled="False"/>
+    </StackPanel>
+    
+</ContentDialog>
